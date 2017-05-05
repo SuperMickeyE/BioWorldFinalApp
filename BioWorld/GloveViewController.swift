@@ -32,9 +32,9 @@ class GloveViewController: UIViewController {
         }
     }
     
-    // BOolean is isActive or connected
+    // Boolean is isActive or connected
     var pages = [
-        false, true, false
+        true, false, false
     ]
     
     var pageIndex = 0
@@ -101,9 +101,9 @@ class GloveViewController: UIViewController {
         activeDeviceBtn.isHidden = active
         deviceDetailsView.isHidden = !active
         
-        if active {
+      //  if active {
             
-        }
+      //  }
 
     }
     

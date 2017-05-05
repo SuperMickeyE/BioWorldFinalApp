@@ -18,7 +18,11 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
     
     @IBOutlet weak var scanButton: UIBarButtonItem!
     
+    @IBOutlet weak var returnButton: UIBarButtonItem!
+    
+    
     @IBOutlet var ScanTableView: UITableView!
+    
     
     @IBAction func scanPressed(_ sender: UIBarButtonItem) {
         if scanning {
