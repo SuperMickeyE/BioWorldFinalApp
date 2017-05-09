@@ -1,0 +1,12 @@
+PODS:
+  - BluetoothKit (0.4.0)
+
+DEPENDENCIES:
+  - BluetoothKit (~> 0.4.0)
+
+SPEC CHECKSUMS:
+  BluetoothKit: 00e189e01ba765e2689c46fbd8d0ede62984441b
+
+PODFILE CHECKSUM: 176f7faee04b622573d222ef165151a36fc6d4c9
+
+COCOAPODS: 1.2.0
