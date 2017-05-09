@@ -6,6 +6,8 @@
 //  Copyright © 2017 UTA Bioworld Team. All rights reserved.
 //
 
+
+//CODE ISSUE: Some swiping protocol below causes the app to quit. Liably due to the updateDeviceUI() function
 import UIKit
 // Used for main page swiping mechanic
 class GloveViewController: UIViewController {
@@ -85,6 +87,8 @@ class GloveViewController: UIViewController {
         self.updateDeviceUI()
     }
     
+    
+    //CODE ISSUE: When a new page becomes active, the old device page should revert back to inactive.
     func updateDeviceUI() {
         //var count = 0
         let active = self.pages[pageIndex]
