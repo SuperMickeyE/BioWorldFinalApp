@@ -83,6 +83,7 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
         scanning = false
         reloadUI()
         
+        //CODE ISSUE: After one scan run, the program exits
         // DO NOT ACTUALLY DO THIS
         central.interruptScan()
         try! central.stop()

@@ -8,6 +8,7 @@
 
 import UIKit
 
+//CODE ISSUE: Needs to be updated for swipability. Can Mirror the GloveViewController class code
 class TutorialSpecificViewController: UIPageViewController {
 
     override func viewDidLoad() {

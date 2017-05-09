@@ -8,6 +8,11 @@
 
 import UIKit
 
+//CODE ISSUE: Data fields require meaning
+//CODE ISSUE: Code needs to be hooked up to a databasing service so it's not utilizing all phone storage
+//CODE ISSUE: Login button unexpectedly quits after last UI update
+//CODE ISSUE: Bluetooth clas needs finishing
+//CODE ISSUE: Needs navigation drawer added in
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
